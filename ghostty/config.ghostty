@@ -2,7 +2,7 @@
 
 # Font Configuration
 font-family = FiraCode Nerd Font
-font-size = 14
+font-size = 13
 
 # Theme Configuration
 theme = Catppuccin Mocha
@@ -21,3 +21,7 @@ mouse-hide-while-typing = true
 gtk-toolbar-style = flat
 gtk-tabs-location = bottom
 gtk-wide-tabs = false
+
+# Working directory behavior
+working-directory = home
+tab-inherit-working-directory = false
