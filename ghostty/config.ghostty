@@ -1,0 +1,23 @@
+# Ghostty Terminal Configuration
+
+# Font Configuration
+font-family = FiraCode Nerd Font
+font-size = 14
+
+# Theme Configuration
+theme = Catppuccin Mocha
+window-theme = ghostty
+
+# Window layout (Flush edges, Centered grid)
+maximize = true
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+
+# Mouse behavior (Hide cursor while typing)
+mouse-hide-while-typing = true
+
+# Tab bar (Bottom edge, Compact left-aligned, Flat)
+gtk-toolbar-style = flat
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
