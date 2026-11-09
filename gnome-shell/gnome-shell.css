@@ -1,0 +1,126 @@
+/* Catppuccin Mocha - Lean GNOME Shell Stylesheet */
+
+/* Top Panel */
+#panel {
+  background-color: #11111b;
+  font-weight: 600;
+  color: #cdd6f4;
+}
+
+#panel .panel-button {
+  color: #cdd6f4;
+  font-weight: 600;
+}
+
+#panel .panel-button:hover,
+#panel .panel-button:focus {
+  color: #ffffff;
+  box-shadow: inset 0 0 0 100px rgba(203, 166, 247, 0.18);
+}
+
+#panel .panel-button:active,
+#panel .panel-button:checked {
+  color: #cba6f7;
+  box-shadow: inset 0 0 0 100px rgba(203, 166, 247, 0.28);
+}
+
+/* Popover Menus & Quick Settings Dropdown */
+.popup-menu-content,
+.candidate-popup-content {
+  background-color: #181825;
+  color: #cdd6f4;
+  border: 1px solid rgba(205, 214, 244, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+.popup-menu-item {
+  color: #cdd6f4;
+}
+
+.popup-menu-item:hover,
+.popup-menu-item:focus {
+  background-color: rgba(203, 166, 247, 0.15);
+  color: #cdd6f4;
+}
+
+.popup-menu-item:active {
+  background-color: rgba(203, 166, 247, 0.25);
+  color: #ffffff;
+}
+
+/* Quick Settings Toggles */
+.quick-toggle {
+  background-color: #313244;
+  color: #cdd6f4;
+}
+
+.quick-toggle:hover {
+  background-color: #45475a;
+}
+
+.quick-toggle:checked {
+  background-color: #cba6f7;
+  color: #11111b;
+}
+
+.quick-toggle:checked:hover {
+  background-color: #b4befe;
+  color: #11111b;
+}
+
+/* Sliders */
+.quick-slider .slider {
+  -barlevel-active-background-color: #cba6f7;
+  -barlevel-background-color: #313244;
+}
+
+/* Calendar & Notifications */
+#calendarArea {
+  color: #cdd6f4;
+}
+
+.calendar .calendar-day.calendar-today {
+  background-color: #cba6f7;
+  color: #11111b;
+  font-weight: bold;
+}
+
+.message {
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  border: 1px solid rgba(205, 214, 244, 0.08);
+}
+
+/* Overview (Super Key) Background */
+#overviewGroup {
+  background-color: #11111b;
+}
+
+/* Overview Search Box */
+.search-entry {
+  background-color: #181825;
+  color: #cdd6f4;
+  border: 1px solid rgba(205, 214, 244, 0.15);
+}
+
+.search-entry:focus {
+  border: 1px solid #cba6f7;
+  box-shadow: inset 0 0 0 1px #cba6f7;
+}
+
+/* Workspace Pager Thumbnails */
+.workspace-thumbnails .workspace-thumbnail {
+  background-color: #181825;
+  border: 1px solid rgba(205, 214, 244, 0.1);
+}
+
+/* Overview Window Close Button */
+.window-close {
+  background-color: #313244;
+  color: #cdd6f4;
+}
+
+.window-close:hover {
+  background-color: #f38ba8;
+  color: #11111b;
+}
